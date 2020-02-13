@@ -5,7 +5,6 @@ class Autori
   public static void main(String args[])
   {  
     Scanner inputuser = new Scanner(System.in);
-    System.out.println("GO\n");
     String namanya = inputuser.nextLine();
     
     System.out.print(Character.toUpperCase(namanya.charAt(0)));
